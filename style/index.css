@@ -17,3 +17,13 @@ pre {
   font-size: var(--jp-code-font-size);
   line-height: var(--jp-code-line-height);
 }
+
+.jp-DirListing-item.jp-mod-running .jp-DirListing-itemIcon:before {
+    color: #00cc96;
+}
+
+/* Command palette search box*/
+.p-CommandPalette.p-mod-focused .p-CommandPalette-wrapper {
+    border: var(--jp-border-width) solid var(--jp-cell-editor-active-border-color);
+    box-shadow: var(--jp-input-box-shadow);
+}
