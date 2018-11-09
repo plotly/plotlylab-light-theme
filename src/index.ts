@@ -11,10 +11,10 @@ import {
  * A plugin for the PlotlyLab Light
  */
 const plugin: JupyterLabPlugin<void> = {
-  id: 'plotlylab-light:plugin',
+  id: 'plotlylab-light-theme:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterLab, manager: IThemeManager) {
-    const style = 'plotlylab-light/index.css';
+    const style = 'plotlylab-light-theme/index.css';
     manager.register({
       name: 'PlotlyLab Light',
       isLight: true,
